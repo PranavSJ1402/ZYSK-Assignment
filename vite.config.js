@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
-    include: ['@mui/icons-material']
+    include: ['@mui/icons-material'],
+      base: '/',
   },
 })
