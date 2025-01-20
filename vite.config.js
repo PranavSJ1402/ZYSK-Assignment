@@ -9,5 +9,8 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist', // Set the output directory to 'dist' for Vercel
+    rollupOptions: {
+      external: ['@mui/icons-material'], // Exclude from the bundle
+    },
   },
 });
