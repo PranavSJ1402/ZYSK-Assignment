@@ -1,4 +1,4 @@
-import { PlayCircleOutlined } from "@mui/icons-material";
+// import { PlayCircleOutlined } from "@mui/icons-material";
 import React from "react";
 
 const Hero = () => {
